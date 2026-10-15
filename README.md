@@ -16,7 +16,7 @@ Modificamos el archivo y añadimos una nueva función para restar y aplicamos lo
 ![Segundo commit](/capturas/4.png)
 
 ## Paso 5
-Le damos una etiqueta al último commit realizado y los comparamos los dos commits con diff para ver las diferencias que tienen &nbsp
+Le damos una etiqueta al último commit realizado y los comparamos los dos commits con diff para ver las diferencias que tienen &nbsp;
 ![Comparacion diff](/capturas/7.png)
 
 ## Paso 6
