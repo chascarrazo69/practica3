@@ -4,19 +4,19 @@ Para empezar se tiene que crear la carpeta para el repositorio local y ejecutar 
 ![Iniciar repositorio](/capturas/1.png)
 
 ## Paso 2
-Depués creamos un archivo de python con una función básica de sumar para hacer pruebas con el mismo
+Depués creamos un archivo de python con una función básica de sumar para hacer pruebas con el mismo.
 ![Crear calculadora.py](/capturas/2.png)
 
 ## Paso 3
-Añadimos el archivo al Staging Area donde luego aplicaremos los cambios con un mensaje de commit
+Añadimos el archivo al Staging Area donde luego aplicaremos los cambios con un mensaje de commit.
 ![Primer commit](/capturas/3.png)
 
 ## Paso 4
-Modificamos el archivo y añadimos una nueva función para restar y aplicamos los cambios
+Modificamos el archivo y añadimos una nueva función para restar y aplicamos los cambios.
 ![Segundo commit](/capturas/4.png)
 
 ## Paso 5
-Le damos una etiqueta al último commit realizado y los comparamos los dos commits con diff para ver las diferencias que tienen <br>
+Le damos una etiqueta al último commit realizado y los comparamos los dos commits con diff para ver las diferencias que tienen. <br>
 ![Comparacion diff](/capturas/7.png)
 
 ## Paso 6
