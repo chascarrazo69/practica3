@@ -37,11 +37,11 @@ A partir del commit anterior donde utilizamos el revert, hacemos cambios del arc
 
 ### 3. Ejercicios de Autoevaluación
 Responda a estas preguntas basándose en su trabajo en la terminal: <br>
-Identificación de Versiones: ¿Cuál es el hash abreviado del commit donde solo existía la función sumar (C1)? <br>
+1. Identificación de Versiones: ¿Cuál es el hash abreviado del commit donde solo existía la función sumar (C1)? <br>
 662afe7 <br>
-Referencia a un Ancestro: Escriba el comando exacto para hacer un viaje en el tiempo (switch o checkout) en modo desacoplado al commit inmediatamente anterior a la etiqueta v1.0-estable, usando la notación de ancestro (~ o ^). <br>
+2. Referencia a un Ancestro: Escriba el comando exacto para hacer un viaje en el tiempo (switch o checkout) en modo desacoplado al commit inmediatamente anterior a la etiqueta v1.0-estable, usando la notación de ancestro (~ o ^). <br>
 git switch –detach v1.0-estable^ <br>
-Seguridad y Borrado: Si usted hubiera usado git reset --hard <HASH_C2> en lugar de git revert HEAD en el punto 3.4, ¿cuál habría sido la principal implicación si este repositorio estuviera compartido en GitHub con otros compañeros? <br>
+3. Seguridad y Borrado: Si usted hubiera usado git reset --hard <HASH_C2> en lugar de git revert HEAD en el punto 3.4, ¿cuál habría sido la principal implicación si este repositorio estuviera compartido en GitHub con otros compañeros? <br>
 Habría borrado los cambios hechos en el archivo para todos los integrantes y habría vuelto al primer commit ya que es el último guardado. <br>
-Propósito de HEAD: Tras finalizar el punto 3.5, ¿a qué está apuntando HEAD en su repositorio? ¿A un commit específico (Detached HEAD) o a la rama principal (main)? <br>
+4. Propósito de HEAD: Tras finalizar el punto 3.5, ¿a qué está apuntando HEAD en su repositorio? ¿A un commit específico (Detached HEAD) o a la rama principal (main)? <br>
 Está apuntando a la rama principal ya que en ese punto se modifica el último commit realizado y automáticamente se pone el HEAD en ese mismo. 
